@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport"
+              content="width=device-width,
+                       initial-scale=1.0" />
+        <title>
+          JavaScript | Without Throttling
+        </title>
+    </head>
+    <body>
+        <button id="nothrottle">Click Me</button>
+        <button id="throttle">Click Me Throttle</button>
+        <script>
+           
+            // Selected button with th egiven id
+            const btn = document.querySelector("#nothrottle");
+           
+            // Add event listener to the button
+            // to listen the click event
+            btn.addEventListener("click", () => {
+                console.log("button is clicked");
+            });
+
+
+            const btn2 = document.querySelector("#throttle");
+            
+            // Throttling Function
+            const throttleFunction=(func, delay)=>{
+                // Previously called time of the function
+                let prev = 0;
+                return (...args) => {
+                    // Current called time of the function
+                    let now = new Date().getTime();
+            
+                    // Logging the difference between previously
+                    // called and current called timings
+                    console.log(now-prev, delay);
+                    
+                    // If difference is greater than delay call
+                    // the function again.
+                    if(now - prev> delay){
+                    prev = now;
+            
+                    // "..." is the spread operator here
+                    // returning the function with the
+                    // array of arguments
+                    return func(...args); 
+                }
+            }
+        }
+                btn.addEventListener("click", throttleFunction(()=>{
+                     console.log("button is clicked")
+                }, 1500));
+        </script>
+    </body>
+</html>
