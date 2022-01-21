@@ -20,7 +20,7 @@ Useful and Challenging Javascript Hacks.
 - [JavaScript Event Bubbling](https://github.com/divinirakiza/javascript-hacks/tree/main/event-bubbling)
 - [JavaScript Scope Chaining](https://github.com/divinirakiza/javascript-hacks/tree/main/scope-chaining)
 - [JavaScript Function Prototypess](https://github.com/divinirakiza/javascript-hacks/tree/main/function-prototypes)
-- [JavaScript ```call``` vs ```apply(https://github.com/divinirakiza/javascript-hacks/tree/main/hoisting)``` vs ```bind(https://github.com/divinirakiza/javascript-hacks/tree/main/hoisting)```](https://github.com/divinirakiza/javascript-hacks/tree/main/call-vs-apply-vs-bind)
+- [JavaScript ```call``` vs ```apply``` vs ```bind```](https://github.com/divinirakiza/javascript-hacks/tree/main/call-vs-apply-vs-bind)
 - [JavaScript Event Loop](https://github.com/divinirakiza/javascript-hacks/tree/main/event-loop)
 - [JavaScript CallBack Queue](https://github.com/divinirakiza/javascript-hacks/tree/main/callback-queue)
 - [JavaScript Type Coercion](https://github.com/divinirakiza/javascript-hacks/tree/main/type-coercion)
