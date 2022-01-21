@@ -21,3 +21,5 @@ const flattenObject = (object) => {
     }
     return res;
 }
+
+console.log(flattenObject(course));
