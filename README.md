@@ -32,3 +32,4 @@ Useful and Challenging Javascript Hacks.
 - [JavaScript Object Flattening](https://github.com/divinirakiza/javascript-hacks/tree/main/object-flattening)
 - [JavaScript Iterators and Generators](https://github.com/divinirakiza/javascript-hacks/tree/main/iterators-and-generators)
 - [JavaScript Prototypal Inheritance](https://github.com/divinirakiza/javascript-hacks/tree/main/prototypal-inheritance)
+- [JavaScript Native Methods](https://github.com/divinirakiza/javascript-hacks/tree/main/native-methods)
