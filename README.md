@@ -1,5 +1,5 @@
 # Javascript Hacks
-Challenging yet Useful Javascript Hacks.
+Challenging yet Useful Javascript Hacks
 
 ### Contents
 
